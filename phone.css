@@ -1,0 +1,49 @@
+@media screen and (max-width:600px) {
+    .link, .secondLink {
+        display: none;
+    }
+    .header{
+        padding: 0;
+    }
+    .logo img {
+        width: 8em;
+        margin-left: 1em;
+    }
+    .firstSection{
+        flex-direction: column;
+        padding: 0;
+        padding-top: 5em;
+    }
+    .textPart{
+        width: 100%;
+        text-align: center;
+    }
+    .textPart p {
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .textPart h1{
+        font-size: 2em;
+        margin-top: 1em;
+        width: 100%;
+    }
+    .textPart h4{
+        width: 100%;
+        font-size: 1.3em;
+    }
+    .unbr{
+        display: none;
+    }
+    .twobutton{
+        margin-top: 1em;
+        padding: 0 10px;
+    }
+    .imgPart{
+        width: 100%;
+    }
+    .imgPart img{
+        width: 100%;
+        margin-top: 1em;
+    }
+}
